@@ -227,3 +227,46 @@ Used to insert image into a document.
 ```
 
 ![image](https://user-images.githubusercontent.com/23183656/39173261-da543368-47d6-11e8-82b9-7585beeae06b.png)
+
+
+## Table
+```html
+<table>
+  <caption>This is a table</caption>
+  <thead> 
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wong</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Lee</td>
+      <td>19</td>
+    </tr>
+  </tbody>
+</table>
+```
+<table>
+  <caption>This is a table</caption>
+  <thead> 
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wong</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Lee</td>
+      <td>19</td>
+    </tr>
+  </tbody>
+</table>
