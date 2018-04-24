@@ -73,7 +73,7 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
 
 ---
 
-### Code(1): Unordered list
+### Example(1): Unordered list
 
 ```html
 <ul>
@@ -82,9 +82,6 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
     <li>Juice</li>
 </ul>
 ```
-
-### Real look (1)
-
 <ul>
     <li>Coffee</li>
     <li>Teh</li>
@@ -93,7 +90,7 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
 
 ---
 
-### Code (2): Ordered list
+### Example (2): Ordered list
 
 ```html
 <ol>
@@ -103,8 +100,6 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
 </ol>
 ```
 
-### Real look (2)
-
 <ol>
     <li>Ali</li>
     <li>Benjamin</li>
@@ -113,7 +108,7 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
 
 ---
 
-### Code(3): Definition list
+### Example(3): Definition list
 ```html
 <dl>
     <dt>Apple</dt>
@@ -125,8 +120,6 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
 </dl>
 ```
 
-### Real look(3)
-
 <dl>
     <dt>Apple</dt>
     <dd>A type of sweet fruit</dd>
@@ -135,3 +128,62 @@ This will make visited link to be <b><a style="color:pink;" href="">pink and bol
     <dt>Coconut</dt>
     <dd>Outside chocolate inside white</dd>
 </dl>
+
+---
+
+### Example(4): Nested list
+```html
+<ol type="A">
+  <li>Coffee
+    <ol type="I">
+      <li>Mocha</li>
+      <li>Expresso</li>
+    </ol>
+  <li> Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ol>
+```
+
+<ol type="A">
+    <li>Coffee
+        <ol type="I">
+            <li>Mocha</li>
+            <li>Expresso</li>
+        </ol>
+    <li> Tea
+        <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ul>
+    </li>
+    <li>Milk</li>
+</ol>
+
+--- 
+
+## Blockquote
+`<blockquote>` or `<quote>` is used to define a section for quotation.
+
+### Example
+```html
+<p>Here is a quote from XXX</p>
+<blockquote>
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+</blockquote>
+```
+
+<p>Here is a quote from XXX</p>
+<blockquote>
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla
+</blockquote>
