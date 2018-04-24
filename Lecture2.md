@@ -34,3 +34,104 @@ Used to create headings. `<h1>` is the biggest and `<h6>` is the smallest.
 | `<sub>` | Subscript | X <sub>subscript</sub>
 | `<sup>` | Superscript | X <sup>superscript</sup>
 
+
+## Anchor
+Used to create a hyperlink to another webpage or another location within the same webpage.
+
+- `href` is used to define the link address.  
+- `target` is used to define where to open the link
+- `<img>` element (inside `<a>`) to use an image as link
+
+
+|Code|Example|  
+|-|-|  
+|`<a href="https://www.google.com">Click me!</a>`|<a href="https://www.google.com">Click me!</a>
+
+By default, a link will appear like this (in all browsers):  
+- An unvisited link is underlined and blue
+- A visited link is underlined and purple
+- An active link is underlined and red
+
+You can use CSS to change the color, for example:
+```css
+
+a:visited { 
+    color: pink;
+    font-weight: bold;
+}
+```
+This will make visited link to be <b><a style="color:pink;" href="">pink and bold</a></b>.
+
+## List
+- `<ul>` to define an unordered list
+- `<ol>` to define an ordered list
+- `<li>` a list item (must be inside `<ul>` or `<ol>`)
+
+- `<dl>` to define a definition list
+- `<dt>` to define a definition term
+- `<dd>` to define definition description
+
+---
+
+### Code(1): Unordered list
+
+```html
+<ul>
+    <li>Coffee</li>
+    <li>Teh</li>
+    <li>Juice</li>
+</ul>
+```
+
+### Real look (1)
+
+<ul>
+    <li>Coffee</li>
+    <li>Teh</li>
+    <li>Juice</li>
+</ul>
+
+---
+
+### Code (2): Ordered list
+
+```html
+<ol>
+    <li>Ali</li>
+    <li>Benjamin</li>
+    <li>Coco</li>
+</ol>
+```
+
+### Real look (2)
+
+<ol>
+    <li>Ali</li>
+    <li>Benjamin</li>
+    <li>Coco</li>
+</ol>
+
+---
+
+### Code(3): Definition list
+```html
+<dl>
+    <dt>Apple</dt>
+    <dd>A type of sweet fruit</dd>
+    <dt>Banana</dt>
+    <dd>A kind of yellow fruit</dd>
+    <dt>Coconut</dt>
+    <dd>Outside chocolate inside white</dd>
+</dl>
+```
+
+### Real look(3)
+
+<dl>
+    <dt>Apple</dt>
+    <dd>A type of sweet fruit</dd>
+    <dt>Banana</dt>
+    <dd>A kind of yellow fruit</dd>
+    <dt>Coconut</dt>
+    <dd>Outside chocolate inside white</dd>
+</dl>
