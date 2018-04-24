@@ -217,12 +217,13 @@ Used to insert image into a document.
 
 ## Style
 ### Example
+
 ```html
-<div style="background-color:yellow">
-</div>
-```
 <div style="background-color:yellow">
 <p style="color:red">This is red</p>
 <p style="font-family:courier">I'm courier</p>
 <p style="text-align:center">I'm at center</p>
 </div>
+```
+
+![image](https://user-images.githubusercontent.com/23183656/39173261-da543368-47d6-11e8-82b9-7585beeae06b.png)
