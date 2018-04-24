@@ -5,12 +5,12 @@ Memorize the following code
 Used to create headings. `<h1>` is the biggest and `<h6>` is the smallest.
 |Code|Example|
 |-|-|
-`<h1>Heading 1</h1>` | <h1>Heading 1</h1>
-`<h2>Heading 2</h2>` | <h2>Heading 2</h2>
-`<h3>Heading 3</h3>` | <h3>Heading 3</h3>
-`<h4>Heading 4</h4>` | <h4>Heading 4</h4>
-`<h5>Heading 5</h5>` | <h5>Heading 5</h5>
-`<h6>Heading 6</h6>` | <h6>Heading 6</h6>
+| `<h1>Heading 1</h1>` | <h1>Heading 1</h1>
+| `<h2>Heading 2</h2>` | <h2>Heading 2</h2>
+| `<h3>Heading 3</h3>` | <h3>Heading 3</h3>
+| `<h4>Heading 4</h4>` | <h4>Heading 4</h4>
+| `<h5>Heading 5</h5>` | <h5>Heading 5</h5>
+| `<h6>Heading 6</h6>` | <h6>Heading 6</h6>
 
 ## Paragraph
 - `<p>` is used to identify blocks of paragraph text.  
@@ -30,4 +30,6 @@ Used to create headings. `<h1>` is the biggest and `<h6>` is the smallest.
 | `<mark>` | Highlight  | <mark>I'm marked</mark>
 | `<del>` | Strikethrough | <del>I'm marked</del>
 | `<ins>` | Underline | <ins>I'm underlined</ins>
+| `<sub>` | Subscript | X <sub>subscript</sub>
+| `<sup>` | Superscript | X <sup>superscript</sup>
 
