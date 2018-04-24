@@ -24,15 +24,15 @@ Used to create headings. `<h1>` is the biggest and `<h6>` is the smallest.
 ## Formatting
 |Code|Explanation|Example|
 |--|--|--|
-|`<b>`| Bold  | <b>I'm bold</b>
-|`<strong>` | Important  | <strong>I'm strong</strong>
-|`<i>` | Italic  | <i>I'm italic</i>
-| `<em>` | Emphasized  | <em>I'm emphasized</em>
-| `<mark>` | Highlight  | <mark>I'm marked</mark>
-| `<del>` | Strikethrough | <del>I'm marked</del>
-| `<ins>` | Underline | <ins>I'm underlined</ins>
-| `<sub>` | Subscript | X <sub>subscript</sub>
-| `<sup>` | Superscript | X <sup>superscript</sup>
+|`<b>I'm bold</b>`| Bold  | <b>I'm bold</b>
+|`<strong> I'm strong </strong>` | Important  | <strong>I'm strong</strong>
+|`<i> I'm italic </i>` | Italic  | <i>I'm italic</i>
+| `<em> I'm emphasized </em>` | Emphasized  | <em>I'm emphasized</em>
+| `<mark>I'm marked</mark>` | Highlight  | <mark>I'm marked</mark>
+| `<del>I'm marked</del>` | Strikethrough | <del>I'm marked</del>
+| `<ins>I'm underlined</ins>` | Underline | <ins>I'm underlined</ins>
+| `Hello <sub>subscript</sub>` | Subscript | Hello <sub>subscript</sub>
+| `Bye <sup>superscript</sup>` | Superscript | Bye <sup>superscript</sup>
 
 
 ## Anchor
@@ -187,3 +187,42 @@ bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla
 </blockquote>
+
+
+## Horizontal rule
+
+`<hr>` is used to represent a thematic break between paragraph-level elements. It is typically rendered as a horizontal line.
+
+### Example  
+```
+<hr>
+```
+<hr>
+
+The horizontal line above and below  is rendered by `<hr>`.  
+
+<hr>
+
+
+## Image
+Used to insert image into a document.
+### Example
+
+```html
+<img src="https://pbs.twimg.com/profile_images/972154872261853184/RnOg6UyU_400x400.jpg">
+```
+<img src="https://pbs.twimg.com/profile_images/972154872261853184/RnOg6UyU_400x400.jpg">
+
+
+
+## Style
+### Example
+```html
+<div style="background-color:yellow">
+</div>
+```
+<div style="background-color:yellow">
+<p style="color:red">This is red</p>
+<p style="font-family:courier">I'm courier</p>
+<p style="text-align:center">I'm at center</p>
+</div>
