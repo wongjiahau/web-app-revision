@@ -3,6 +3,7 @@ Memorize the following code
 
 ## Headings
 Used to create headings. `<h1>` is the biggest and `<h6>` is the smallest.  
+
 |Code|Example|  
 |--|--|  
 | `<h1>Heading 1</h1>` | <h1>Heading 1</h1>
